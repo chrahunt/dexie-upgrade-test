@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Dexie Upgrade Test",
+  "version": "0.1.0",
+  "description": "Testing Dexie upgrade memory usage.",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+  "web_accessible_resources": [
+    "resources/*.json"
+  ]
+}

@@ -27,6 +27,6 @@
     "watchify": "^3.2.1"
   },
   "dependencies": {
-    "dexie": "^1.1.0"
+    "dexie": "git://github.com/chrahunt/Dexie.js.git#8e49102"
   }
 }
